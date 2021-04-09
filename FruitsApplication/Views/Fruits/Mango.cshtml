@@ -1,0 +1,37 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row" Fruite-section>
+            <div class="col-md-4">
+                @{Html.RenderAction("SideManu", "Fruits");}
+            </div>
+            <div class="col-md-8">
+                <div class="Mango">
+                    <h1>Mango</h1>
+                    <img src="~/Image/Mango.jpg" />
+                    <div class=" button">
+                        <div class="row">
+                            <div class="col-md-6 price">
+                                <h2>Rs200/-</h2>
+
+                                <div class="col-md-6 ordernow">
+
+                                    <div class="col-md-6 OrderNow"><button class="btn btn-danger">OrderNow</button></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </body>
+</html>
